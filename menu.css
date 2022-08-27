@@ -1,0 +1,200 @@
+nav {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  
+}
+
+p {
+  font-family: 'Mulish',sans-serif;
+  font-weight: 700;
+  color: #FB8E6A;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.a-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.a-link:hover {
+  margin: 25px 85px;
+}
+
+.m-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.m-link:hover {
+  margin: 25px 85px;
+}
+
+.s-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.s-link:hover {
+  margin: 25px 85px;
+}
+
+.sidebar {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  width: 10vw;
+  height: 120vh;
+  padding: 20px 0;
+  justify-content: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 10px 5px 5px rgba(0,0,0,0.3);
+}
+
+div img {
+  display: block;
+  width: 30px;
+}
+
+.home {
+  display: block;
+  margin-left: 35%;
+  margin-top: 110px;
+  margin-bottom: 95px;
+  transition: margin-left 1.2s;
+}
+
+.home:hover {
+  margin-left: 45%;
+}
+
+.restaurant-menu {
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 95px;
+  padding: 20px 0px;
+  transition: margin-left 1.2s;
+}
+
+.restaurant-menu:hover {
+  margin-left: 45%;
+}
+
+.cart-container {
+  background-color: #FB8E6A;
+}
+
+.cart {
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 95px;
+  transition: margin-left 1.2s;
+}
+
+.cart:hover {
+  margin-left: 45%;
+}
+
+.location {
+  display: block;
+  margin-left: 35%;
+  margin-bottom: 95px;
+  transition: margin-left 1.2s;
+}
+
+.location:hover {
+  margin-left: 45%;
+}
+
+.exit {
+  position: absolute;
+  bottom: 80px;
+  margin-left: 35%;
+  transition: margin-left 1.2s;
+}
+
+.exit:hover {
+  margin-left: 45%;
+}
+
+section {
+  color: black;
+  margin-top: 20px;
+  margin-left: 200px;
+  width: 20vw;
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-right: 20px;
+
+}
+
+.sushi-text {
+  font-family: 'mulish';
+  display: block;
+  margin-top: 80px;
+  margin-left: 200px;
+  font-size: 35px;
+}
+
+.food-img {
+  width: 100%;
+}
+
+.food1 {
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.food-text {
+  color: black;
+  width: 40px;
+  font-size: 12px;
+}
+
+.button-section {
+ margin-top: 550px;
+ margin-left: 600px;
+ display: block;
+ text-align: center;
+}
+
+
+.button {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.copyright {
+  color: black;
+  font-family: 'Mulish';
+  margin-top: 560px;
+  margin-left: 40px;
+}
+

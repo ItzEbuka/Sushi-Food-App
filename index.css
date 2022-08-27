@@ -1,0 +1,119 @@
+nav {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  
+}
+
+p {
+  font-family: 'Mulish',sans-serif;
+  font-weight: 700;
+  color: #FB8E6A;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.a-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.a-link:hover {
+  margin: 25px 85px;
+}
+
+.m-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.m-link:hover {
+  margin: 25px 85px;
+}
+
+.s-link {
+  font-family: 'Mulish',sans-serif;
+  margin: 20px 80px;
+  color: #FB8E6A;
+  text-decoration: none;
+  transition: margin 1.2s;
+}
+
+.s-link:hover {
+  margin: 25px 85px;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 30vh;
+  margin-bottom: 25px;
+}
+
+div {
+  text-align: center;
+}
+
+.intro-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  margin-left: 390px;
+  margin-bottom: 60px;
+}
+
+.left-click{
+  position: fixed;
+  left: 0;
+  width: 40px;
+  margin-bottom: 35px;
+  transition: width 1.2s;
+}
+
+.left-click:hover {
+  width: 49px; 
+}
+
+.right-click {
+  position: fixed;
+  right: 0;
+  width: 40px;
+  margin-bottom: 35px;
+  transition: width 1.2s;
+}
+
+.right-click:hover {
+  width: 49px; 
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 60px;
+  margin: 30px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  transition: padding 1.2s;
+}
+
+button:hover {
+  padding: 15px 67px;
+}
